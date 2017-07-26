@@ -1,0 +1,4 @@
+resource_group: group-name
+storage_name: vStorage
+azure_region: westus2
+storage_type: Standard_LRS

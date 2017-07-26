@@ -1,0 +1,8 @@
+---
+# create a storage group in azure
+- name: creating a storage account
+  azure_rm_storageaccount:
+    resource_group: "{{ resource_group }}"
+    name: "{{ storarge_name }}"
+    type: "{{ storage_type }}"
+    location: "{{ azure_region }}"
